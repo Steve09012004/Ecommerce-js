@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de exercicios 04
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <h1>Lista de Exercícios 04</h1>
+        </div>
+        <div class="divisor"></div>
+        <img class="logoSenai" src="images/senai-165.png" alt="senaiLogo">
+        <div class="cartBuy"><span class="icon"><img src="images/carrinho-de-compras.png"
+                    alt="carrinho de compras icon"><span class="total">1</span></span></div>
+        <nav>
+            <p id="productsShow" onclick="showProducts()">Home</p><span> | </span>
+            <p>Adionar Produtos</p>
+        </nav>
+    </header>
+
+    <div id="root">
+        <main>
+            <div class="containerCheckout">
+                <div class="productsList">
+                    <div class="title">
+                        <h1>Products List</h1>
+                    </div>
+                    <div class="productLine">
+                        <img src="images/Products/camistaAmarela.png" alt="productImage">
+                        <h3 class="productName">Camiseta Amarela</h3>
+                        <p class="productPrice">49.90</p>
+                    </div>
+                    <div class="productLine">
+                        <img src="images/Products/camistaAmarela.png" alt="productImage">
+                        <h3 class="productName">Camiseta Amarela</h3>
+                        <p class="productPrice">49.90</p>
+                    </div>
+                    <div class="productLine">
+                        <img src="images/Products/camistaAmarela.png" alt="productImage">
+                        <h3 class="productName">Camiseta Amarela</h3>
+                        <p class="productPrice">49.90</p>
+                    </div>
+                    <div class="productLine">
+                        <img src="images/Products/camistaAmarela.png" alt="productImage">
+                        <h3 class="productName">Camiseta Amarela</h3>
+                        <p class="productPrice">49.90</p>
+                    </div>
+                </div>
+                <div class="checkOut">
+                    <div class="title">
+                        <h1>Finish Buy</h1>
+                    </div>
+                    <div class="checkOutInfo">
+                        <h1>Total</h1>
+                        <div class="total">
+                            <h2>199.90</h2>
+                        </div>
+                        <div class="paymentType">
+                            <form action="#">
+                                <input type="radio" name="opcao" value="Pix">
+                                <div class="methods"><img
+                                        src="images/pix.png" alt="iconImage">
+                                    <h4>Pix</h4>
+                                </div>
+                                <input type="radio" name="opcao" value="credit">
+                                <div class="methods"><img
+                                        src="images/icons8-frente-do-cartão-de-crédito-64.png" alt="iconImage">
+                                    <h4>Credit</h4>
+                                </div>
+                                <input type="radio" name="opcao" value="debit">
+                                <div class="methods"><img
+                                        src="images/debit.png" alt="iconImage">
+                                    <h4>Debit</h4>
+                                </div>
+                                <input type="radio" name="opcao" value="bankslip">
+                                <div class="methods"><img
+                                        src="images/icons8-bar-code-48.png" alt="iconImage">
+                                    <h4>Slip</h4>
+                                </div>
+
+                            </form>
+                            <button>Finish Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <h5>Lista de Exercícios 03 - Desenvolvido por Estevão Amaro - Aluno Senai</h5>
+        <div class="divisor"></div>
+        <img src="images/brasao-familia-amaro.png" alt="senaiLogo">
+    </footer>
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
